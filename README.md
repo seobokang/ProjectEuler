@@ -1,3 +1,3 @@
-# ProjectEuler kkk
-Project Euler(Kr ver.) solution
+# ProjectEuler by Bokang Seo
+Project Euler(Korea ver.) solution
 
