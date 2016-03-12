@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class p10 {
+public class p010 {
 	public static void main(String[] args){
 		int size = 2000000;
 		long result = 2+3+5+7+11+13+17+19 ;
