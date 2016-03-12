@@ -1,4 +1,4 @@
-public class p7{
+public class p007{
 	public static void main(String[] args){
 		int WantToCount = 10001;
 		int counter = 0;
