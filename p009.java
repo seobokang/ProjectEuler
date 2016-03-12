@@ -1,4 +1,4 @@
-public class p9 {
+public class p009 {
 	public static void main(String[] args){
 		boolean check = true;
 		int i,j;
