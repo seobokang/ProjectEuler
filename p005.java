@@ -1,4 +1,4 @@
-public class p5{
+public class p005{
 	
 	public static void main(String[] args){
 		int first = 1;
