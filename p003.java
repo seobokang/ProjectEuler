@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class p3 {
+public class p003 {
 
         static public boolean check_prime(int num){
                 for(int i = 2 ; i < num ; i++){
