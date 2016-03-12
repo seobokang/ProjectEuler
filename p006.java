@@ -1,4 +1,4 @@
-public class p6 {
+public class p006 {
 	public static void main(String[] args){
 			int start = 1;
 			int end = 100;
