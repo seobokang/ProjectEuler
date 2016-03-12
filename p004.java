@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.math.*;
-public class p4 {
+public class p004 {
 	public static void main(String[] args){
 		int i,j,k;
 		int max = 0; 
