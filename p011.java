@@ -26,13 +26,39 @@ public class p011{
 			System.exit(1);
 		}
 
-		for(int i = 0 ; i < DataList.size() ; i++){
+		int Max = 0 ;
+
+		for(int i = 0 ; i < DataList.size() - 3 ; i++){
 			for(int j = 0 ; j < DataList.get(i).length ; j++){
-				System.out.print(DataList.get(i)[j]+"--");
+				int verti = DataList.get(i+0)[j] * DataList.get(i+1)[j] *
+					DataList.get(i+2)[j] * DataList.get(i+3)[j];
+					if(verti > Max) Max = verti;
+
+				if(j < DataList.get(i).length - 3){
+
+					int hori = DataList.get(i)[j+0] * DataList.get(i)[j+1] * 
+						DataList.get(i)[j+2] * DataList.get(i)[j+3] ;
+					if(hori > Max) Max = hori;
+
+					int diag1 = DataList.get(i+0)[j+0] * DataList.get(i+1)[j+1] *
+						DataList.get(i+2)[j+2] * DataList.get(i+3)[j+3];
+					if(diag1 > Max) Max = diag1;
+				}
+
+				
+				if(j > 2){
+					int diag2 = DataList.get(i)[j] * DataList.get(i+1)[j-1] *
+						DataList.get(i+2)[j-2] * DataList.get(i+3)[j-3];
+					if(diag2 > Max) Max = diag2;
+				}
+
 			}
-			System.out.println();
 		}
+
+		System.out.println(Max);
+		
 	}	
+	
 }
 
 
